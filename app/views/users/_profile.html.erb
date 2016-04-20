@@ -1,0 +1,9 @@
+<h4 id="username-profile"><%= @user.username%>'s gifs:</h4>
+<div class="row" id="gifs_box">
+  <%= render @gifs %>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <%= paginate @gifs %>
+  </div>
+</div>
